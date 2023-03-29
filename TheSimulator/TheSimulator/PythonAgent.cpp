@@ -42,5 +42,5 @@ void PythonAgent::configure(const pugi::xml_node& node, const std::string& confi
 
 void PythonAgent::receiveMessage(const MessagePtr& msg) {
 	py::function receiveMessageFunction = py::reinterpret_borrow<py::function>(m_instance.attr("receiveMessage"));
-	py::object _ret = receiveMessageFunction(simulation(), msg->type, py::dict()/*, msg.toDict()*/);
+	py::object _ret = receiveMessageFunction(simulation(), msg->type, msg->payload, msg->source);
 }
