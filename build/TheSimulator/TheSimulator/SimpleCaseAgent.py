@@ -45,13 +45,14 @@ class SimpleCaseAgent:
 
         marketOrderPayload = PlaceOrderLimitPayload(OrderDirection.Buy, 1)
         simulation.dispatchMessage(current_timestamp, 0, self.name(), exchange, "PLACE_ORDER_MARKET", marketOrderPayload)
+        
 
     def submitMarketSell(self, simulation, current_timestamp, exchange):
         """ Sends a message to exchange to sell a single share 
         
         Parameters
         ----------
-        simulation : unclear
+        simulation : simulation object
             simply passed from recieve_message
 
         current_timestamp : int
@@ -66,17 +67,134 @@ class SimpleCaseAgent:
         marketOrderPayload = PlaceOrderLimitPayload(OrderDirection.Sell, 1)
         simulation.dispatchMessage(current_timestamp, 0, self.name(), exchange, "PLACE_ORDER_MARKET", marketOrderPayload)
 
+    def processOrderResponse(self, current_timestamp, payload, source):
+        """ add orders to outstanding orders when we receive them 
+        
+        Parameters 
+        ----------
+        current_timestamp : timestamp
+            timestamp of execution
+
+        payload : PlaceOrderLimitResponsePayload
+            order confirmation for some submitted order
+
+        source : string
+            exchange originating the confirmation
+        """
+
+        ## get id, direction
+        order_id = payload.id
+        direction = payload.requestPayload.OrderDirection
+
+        self.outstanding_orders[(order_id, source)] = (payload, current_timestamp, direction)
+
+
+    def evaluationLoop(self, simulation):
+        """ basic asset evaluation loop """
+
+    def processOrderEvent(self, payload, source):
+        """ updates information based on trade event """
+
+        ## two cases, either is one of our orders, or it isn't, need to check case that we are either resting or agressing order
+
+        order_id_A = payload.trade.agressingOrderID
+        order_id_B = payload.trade.restingOrderID
+
+        ## if it is our order, handle it
+        ## note: shouldn't need to update the price, if the order is being confirmed then either A: this is the most recent price or
+        ## B: this is the one the order was submitted with because it isn't updated by anything in the interim. 
+        if (order_id_A, source) in self.outstanding_orders:
+
+            asset_index = self.watching.index(source)
+
+            ## if a buy for this agent, increment shares, if a sale, decrement and add cash
+            if self.outstanding_orders[(order_id_A, source)][2] == 0:
+                self.shares[asset_index] += 1
+            else:
+                self.shares[asset_index] -= 1
+                self.allocated_cash += float(self.outstanding_orders[(order_id_A, source)][0].price.toCentString())
+
+            ## order has executed, no longer outstanding 
+            self.outstanding_orders.pop((order_id_A, source))
+
+            
+        elif (order_id_B, source) in self.outstanding_orders:
+
+            asset_index = self.watching.index(source)
+
+            ## if a buy for this agent, increment shares, if a sale, decrement and add cash
+            if self.outstanding_orders[(order_id_B, source)][2] == 0:
+                self.shares[asset_index] += 1
+            else:
+                self.shares[asset_index] -= 1
+                self.allocated_cash += float(self.outstanding_orders[(order_id_B, source)][0].price.toCentString())
+
+            ## order has executed, no longer outstanding 
+            self.outstanding_orders.pop((order_id_B, source))
+
+
+        ## alternative case: not this agent's order, need to update price and evaluate
+        else:
+            new_price = float(payload.trade.price.toCentString())
+            asset_index = self.watching.index(source)
+
+            self.prices[asset_index] = new_price
+
+
+        ## now that share counts or prices are updated, reevaluate 
+        self.evaluationLoop()
+
+
 
     def evaluateOutstandingOrders(self, simulation, current_timestamp):
-        """ method to evaluate outstanding orders, adjust if needed """
+        """ method to evaluate outstanding orders, adjust if needed 
+        
+        Parameters
+        ----------
+        simulation : simulation object
+            The simulation object
+
+        current_timestamp : timestamp
+            the timestamp of execution
+
+        Returns
+        -------
+        None
+        
+        """
 
         for order in self.outstanding_orders:
 
             ## if passed the time cutoff and the order is an ask
-            if current_timestamp - order[1] > self.ref_rate and self.outstanding_orders[2] == 'A':
-                simulation.dispatchMessage(CancelOrdersPayload(CancelOrdersCancellation(order, 1)))
+            if current_timestamp - self.outstanding_orders[order] > self.ref_rate:
 
-                
+                ## set exchange and message payload
+                exchange = order[1]
+                msg_payload = CancelOrdersPayload(CancelOrdersCancellation(order[0], 1))
+
+                ## cancel the order
+                simulation.dispatchMessage(current_timestamp, 0, self.name(), exchange, "CANCEL_ORDERS", msg_payload)
+
+                ##if order is a bid, want to add cash we would have been bidding, increase price
+                if self.outstanding_orders[order][2] == 0:
+
+                    ## add the cash that we would have spent back to total
+                    self.allocated_cash += float(self.outstanding_orders[order][0].price.toCentString())
+
+                     ## set new price that we would bid
+                    new_price = self.step_rate * float(self.outstanding_orders[order][0].price.toCentString())
+
+                ## otherwise if order is an ask, then need to decrease new price
+                else:
+                    ## set new price that we would ask
+                    new_price = (2-self.step_rate) * float(self.outstanding_orders[order][0].price.toCentString())
+
+                ## in either case, find asset index, update price
+                asset_index = self.watching.index(exchange)
+                self.prices[asset_index] = new_price
+
+        ## reevaluate with all new prices
+        self.evaluationLoop()
 
         
 
@@ -94,7 +212,30 @@ class SimpleCaseAgent:
             for ticker in self.watching:
                 simulation.dispatchMessage(current_timestamp, 0, self.name(), ticker, "SUBSCRIBE_EVENT_TRADE", empty_payload)
 
-        ## evaluative loop
+        ## if message is an order confirmation, process it
+        if type == "RESPONSE_PLACE_ORDER_LIMIT":
+            self.processOrderResponse(current_timestamp, payload, source)
+            simulation.dispatchGenericMessage(current_timestamp, self.ref_rate, self.name(), self.name(), "WAKE_UP", {})
+
+        ## if receiving a wakeup message, should eval outstanding orders
+        if type == "WAKE_UP":
+            self.evaluateOutstandingOrders(simulation, current_timestamp)
+
+        if type == "EVENT_TRADE":
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         ## need to write function for allocation opti in portfolio.py, substituting 0.5 for now
         self.allocated_cash = 0.5 * self.total_capital
