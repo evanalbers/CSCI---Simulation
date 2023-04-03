@@ -14,16 +14,18 @@ class SimpleCaseAgent:
         self.ref_rate = int(params['refresh_rate'])
         self.weights = []
         self.agent_id = self.name()[4:]
-        self.epsilon = 0.01
 
         with open("Agents/Agent" + self.agent_id) as f:
             self.watching = json.load(f)["watching"]
+            self.prices = json.load(f)["prices"]
 
         self.prices = [-1] * len(self.watching)
         self.current_weights = [0] * len(self.watching)
         self.shares = [0] * len(self.watching)
 
         self.outstanding_orders = {}
+
+        self.asset_file = str(params["asset_file"])
 
 
     def submitMarketBuy(self, simulation, current_timestamp, exchange):
@@ -42,6 +44,12 @@ class SimpleCaseAgent:
         -------
         None
         """
+
+        asset_index = self.watching.index(exchange)
+
+        ## if we don't have the capital for it, just return and don't do anything
+        if self.allocated_cash < self.prices[asset_index]:
+            return
 
         marketOrderPayload = PlaceOrderLimitPayload(OrderDirection.Buy, 1)
         simulation.dispatchMessage(current_timestamp, 0, self.name(), exchange, "PLACE_ORDER_MARKET", marketOrderPayload)
@@ -63,6 +71,12 @@ class SimpleCaseAgent:
         -------
         None
         """
+
+        ## double check that we have a share to sell, if none then return and do nothing
+        asset_index = self.watching.index(exchange)
+        if self.shares[asset_index] == 0:
+            return
+
 
         marketOrderPayload = PlaceOrderLimitPayload(OrderDirection.Sell, 1)
         simulation.dispatchMessage(current_timestamp, 0, self.name(), exchange, "PLACE_ORDER_MARKET", marketOrderPayload)
@@ -88,9 +102,47 @@ class SimpleCaseAgent:
 
         self.outstanding_orders[(order_id, source)] = (payload, current_timestamp, direction)
 
+    def getWatchingIndices(self):
+        """ returns the indices of the assets in "watching", in the larger asset dictionary """
+
+        indicies = []
+        with json.open(self.asset_file) as f:
+            asset_dict = json.load(f)
+        
+
+        for asset in self.watching:
+            indicies.append(asset_dict["assets"].index(asset))
+
+        return indicies
 
     def evaluationLoop(self, simulation):
         """ basic asset evaluation loop """
+
+
+        current_timestamp = simulation.currentTimestamp()
+
+        ## need to write function for allocation opti in portfolio.py, substituting 0.5 for now
+        self.allocated_cash = 0.5 * self.total_capital
+
+        ## NOTE need to get the indices of all of watching from self.asset_file
+
+        ## check what value of current portfolio is 
+        current_weights = calculate_current_weights(self.prices, self.shares)
+
+        optimal_weights = calculate_optimal_portfolio(self.indicies, self.prices)
+
+        ## iterate over each asset
+        for asset_index in range(len(current_weights)):
+
+            ## as long as we are within one share price of optimal, don't do anything, 
+            ## otherwise adjust. Currently, optimal is just "within one share of where we should be"
+            if current_weights[asset_index] - optimal_weights[asset_index] > self.prices[asset_index]:
+                self.submitMarketSell(simulation, current_timestamp, self.watching[asset_index])
+            
+            elif optimal_weights[asset_index] - current_weights[asset_index] > self.prices[asset_index] and self.prices[asset_index] > self.allocated_cash:
+                self.submitMarketBuy(simulation, current_timestamp, self.watching[asset_index])
+
+
 
     def processOrderEvent(self, payload, source):
         """ updates information based on trade event """
@@ -149,6 +201,10 @@ class SimpleCaseAgent:
     def evaluateOutstandingOrders(self, simulation, current_timestamp):
         """ method to evaluate outstanding orders, adjust if needed 
         
+            All this method does is cancel our outstanding order and modify the price 
+            that the agent tracks for the asset. Any subsequent bidding/asking
+            goes on in the evaluative loop
+
         Parameters
         ----------
         simulation : simulation object
@@ -204,15 +260,13 @@ class SimpleCaseAgent:
         current_timestamp = simulation.currentTimestamp()
         print("%s : current timestamp, printing time" % current_timestamp)
 
-        empty_payload = EmptyPayload()
-
         ## subscribe to trades that occur in "watching"
         if type == "EVENT_SIMULATION_START":
 
             for ticker in self.watching:
-                simulation.dispatchMessage(current_timestamp, 0, self.name(), ticker, "SUBSCRIBE_EVENT_TRADE", empty_payload)
+                simulation.dispatchMessage(current_timestamp, 0, self.name(), ticker, "SUBSCRIBE_EVENT_TRADE", EmptyPayload())
 
-        ## if message is an order confirmation, process it
+        ## if message is an order confirmation, process it: schedule wakeup in case no one trades with order
         if type == "RESPONSE_PLACE_ORDER_LIMIT":
             self.processOrderResponse(current_timestamp, payload, source)
             simulation.dispatchGenericMessage(current_timestamp, self.ref_rate, self.name(), self.name(), "WAKE_UP", {})
@@ -221,43 +275,19 @@ class SimpleCaseAgent:
         if type == "WAKE_UP":
             self.evaluateOutstandingOrders(simulation, current_timestamp)
 
+        ## if there is an event trade, update our given price, run evaluative loop
         if type == "EVENT_TRADE":
+                asset_index = self.watching.index(source)
+                new_price = float(payload.trade.price.toCentsString())
+                self.prices[asset_index] = new_price
+                self.evaluationLoop()
 
+        if type == "SIMULATION_STOP":
+            ## if simulation is ending, save agent to file
+            with open("Agents/Agent" + self.agent_id) as f:
+                agent_dict = {"watching" : self.watching, "prices" : self.prices}
+                json.dump(agent_dict, f)
 
+        ## will want to add more parts here about adding, subtracting from "watching," but this can come later 
 
-
-
-
-
-
-
-
-
-
-
-
-
-        ## need to write function for allocation opti in portfolio.py, substituting 0.5 for now
-        self.allocated_cash = 0.5 * self.total_capital
-
-        ## if there is a negative one in list of current prices, we are waiting
-        ## to hear back, so should sleep
-        if -1 in self.prices:
-            return
-
-        self.get_watching_prices
-
-        ## check what value of current portfolio is 
-        current_weights = calculate_current_weights(self.prices, self.shares)
-
-        optimal_weights = calculate_optimal_portfolio(self.watching, self.prices)
-
-        ## iterate over each asset
-        for asset_index in range(len(current_weights)):
-            ## as long as we are within one share price of optimal, don't do anything, otherwise adjust
-            if current_weights[asset_index] - optimal_weights[asset_index] > self.prices[asset_index]:
-                self.submitMarketSell(simulation, current_timestamp, self.watching[asset_index])
-            
-            elif optimal_weights[asset_index] - current_weights[asset_index] > self.prices[asset_index] and self.prices[asset_index] > self.allocated_cash:
-                self.submitMarketBuy(simulation, current_timestamp, self.watching[asset_index])
 

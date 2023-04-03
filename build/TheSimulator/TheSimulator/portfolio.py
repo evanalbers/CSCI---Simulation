@@ -16,15 +16,13 @@ Summary: series of functions to aid with portfolio calculation, to isolate
 
 
 """
-EXAMPLE = "example_data.json"
-
 
 import json
 import numpy as np
 from numpy.linalg import inv
 
 
-def getExpPriceData(tickers):
+def getExpPriceData(tickers, file):
     """
     Returns the expected price data associated with the given tickers 
     as a numpy array
@@ -34,13 +32,16 @@ def getExpPriceData(tickers):
     tickers : list
         a list of numbers representing the index of sought after assets
 
+    file : string
+        file containing mean-variance data about assets
+
     Returns
     -------
     exp_rets : nparray
         an array of the corresponding expected returns    
     """
 
-    with open(EXAMPLE) as f:
+    with open(file) as f:
 
         data = json.load(f)
     
@@ -53,7 +54,7 @@ def getExpPriceData(tickers):
 
     return np.asarray(exp_price)
     
-def getRiskMatrix(tickers):
+def getRiskMatrix(tickers, file):
     """
     returns the risk matrix for given tickers
     
@@ -61,6 +62,9 @@ def getRiskMatrix(tickers):
     ----------
     tickers : list
         list of ints representing indices of sought after assets
+
+    file : string
+        file containing mean-variance data about assets
     
     Returns
     -------
@@ -70,7 +74,7 @@ def getRiskMatrix(tickers):
     """
 
     # retrieving data
-    with open(EXAMPLE) as f:
+    with open(file) as f:
 
         data = json.load(f)
 
@@ -88,7 +92,7 @@ def getRiskMatrix(tickers):
 
     return risk_matrix
 
-def getExpRetData(tickers, current_price_data):
+def getExpRetData(tickers, current_price_data, file):
     """Returns the expected return data associated with the given tickers 
     as a numpy array
 
@@ -100,6 +104,9 @@ def getExpRetData(tickers, current_price_data):
     current_price_data : list
         a list of numbers corresponding to sorted ticker order representing price data
 
+    file : string
+        file containing mean-variance data about assets
+
     Returns
     -------
     exp_rets : nparray
@@ -107,7 +114,7 @@ def getExpRetData(tickers, current_price_data):
     
     exp_returns = []
 
-    exp_prices = getExpPriceData(tickers)
+    exp_prices = getExpPriceData(tickers, file)
 
     ## dividing exp price at end of period by current price 
     for num in range(len(exp_prices)):
@@ -115,7 +122,7 @@ def getExpRetData(tickers, current_price_data):
 
     return np.array(exp_returns)
 
-def calculate_expected_return(weights):
+def calculate_expected_return(weights, file):
     """
     Returns the expected return of the given portfolio weights
 
@@ -124,6 +131,9 @@ def calculate_expected_return(weights):
     weights : nparray
         a 2D array in which the first row is the tickers, 2nd row is
         corresponding weight in the portfolio
+
+    file : string
+        file containing mean-variance data about assets
     
     Returns
     -------
@@ -137,21 +147,31 @@ def calculate_expected_return(weights):
     ## need to add a bit calculating the expected return here, should be just dividing elements in 
     ## the given current price by those in the expected price one, given by exp. price function
 
-    exp_return_data = getExpRetData(tickers)
+    exp_return_data = getExpRetData(tickers, file)
 
     expected_return = np.cross(weights, exp_return_data)
 
     return expected_return
 
 
-def calculate_optimal_portfolio(tickers, rfr, current_price_data):
+def calculate_optimal_portfolio(tickers, rfr, current_price_data, file):
     """
     Returns a set of weights that represent the optimal portfolio weights for 
     the given asset
 
     Parameters
     ----------
-    tickers : array of floats representing the tickers to be assessed
+    tickers : array of floats 
+        representing the tickers to be assessed
+    
+    rfr : float
+        the risk free rate
+    
+    current_price_data : list of floats 
+        ordered list of current price data of assets in tickers
+
+    file : string
+        filename to be opened, contains risk and return data
 
     Returns 
     -------

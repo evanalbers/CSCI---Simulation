@@ -1,0 +1,37 @@
+<Simulation start="0" duration="1250">
+    <ExchangeAgent
+        name="AAPL"
+        algorithm="PureProRata"
+        />
+
+    <ExchangeAgent
+        name="MSFT"
+        algorithm="PureProRata"
+        />
+
+    <ExchangeAgent
+        name="Z"
+        algorithm="PureProRata"
+    />
+
+    <SimpleCaseAgent
+        name="AGENT_BUYER"
+        exchange="AAPL"
+
+        refresh_rate = "5"
+
+        />
+    <SimpleCaseAgent
+        name="AGENT_BUYER"
+        exchange="AAPL"
+
+        refresh_rate = "5"
+
+        />
+    
+    <TradeLogAgent
+        name="LOGGER_TRADES"
+        exchange="EXCHANGE"
+        />
+
+</Simulation>
