@@ -1,4 +1,4 @@
-<Simulation start="0" duration="1001">
+<Simulation start="0" duration="1250">
     <ExchangeAgent
         name="EXCHANGE"
         algorithm="PureProRata"

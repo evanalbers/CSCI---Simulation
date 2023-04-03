@@ -18,9 +18,9 @@ class SellingAgent:
         print("%s:  Selling %d units for %s, then going to sleep until %d" % (self.name(), self.quantity, self.price.toCentString(), currentTimestamp+self.interval))
 
         # Schedule the (first/next) wakeup message `self.interval` time units later
-        simulation.dispatchGenericMessage(currentTimestamp, self.interval, self.name(), self.name(), "WAKE_UP", {})
+        simulation.dispatchGenericMessage(currentTimestamp, self.interval+ 5, self.name(), self.name(), "WAKE_UP", {})
 
         # Place a limit order to buy `self.quantity` units of an instrument at the price `self.price`
         limitOrderPayload = PlaceOrderLimitPayload(OrderDirection.Sell, self.quantity, self.price)
-        simulation.dispatchMessage(currentTimestamp, 0, self.name(), self.exchange, "PLACE_ORDER_LIMIT", limitOrderPayload)
+        simulation.dispatchMessage(currentTimestamp, 5, self.name(), self.exchange, "PLACE_ORDER_LIMIT", limitOrderPayload)
     

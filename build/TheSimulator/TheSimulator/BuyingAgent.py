@@ -11,7 +11,7 @@ class BuyingAgent:
 
         if type == "EVENT_SIMULATION_START":
             # Subscribe to receive a message of type "EVENT_ORDER_LIMIT" whenever a limit order is submitted to the exchange `self.exchange`
-            simulation.dispatchMessage(currentTimestamp, 0, self.name(), self.exchange, "SUBSCRIBE_EVENT_ORDER_LIMIT", EmptyPayload())
+            simulation.dispatchMessage(currentTimestamp, 5, self.name(), self.exchange, "SUBSCRIBE_EVENT_ORDER_LIMIT", EmptyPayload())
             return
         elif type != "EVENT_ORDER_LIMIT":
             # Ignore all messages that should not trigger buying (i.e. order placement confirmations, etc.
