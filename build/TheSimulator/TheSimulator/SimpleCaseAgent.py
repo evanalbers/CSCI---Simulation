@@ -7,7 +7,7 @@ class SimpleCaseAgent:
     
 
     def configure(self, params):
-        self.total_capital = str(params['capital'])
+        self.cash = str(params['capital'])
         self.allocated_cash = 0
         self.exchange = str(params['exchange'])
         self.quantity = 1
@@ -26,6 +26,9 @@ class SimpleCaseAgent:
         self.outstanding_orders = {}
 
         self.asset_file = str(params["asset_file"])
+
+        self.risk_free_rate = str(params["rfr"])
+        self.risk_coeff = str(params["risk_coeff"])
 
 
     def submitMarketBuy(self, simulation, current_timestamp, exchange):
@@ -115,31 +118,84 @@ class SimpleCaseAgent:
 
         return indicies
 
+    def optimalFraction(self, weights):
+        """ calculates the fraction of wealth we should have invested in the market portfolio"""
+
+        ## need to calculate the optimal portfolio return
+        ticker_indices = self.getWatchingIndices()
+        
+        mkt_exp_return = calculate_expected_return(ticker_indices, weights, self.asset_file)
+        mkt_risk = calcPortfolioVariance(ticker_indices, weights, self.asset_file)
+
+        weight = (mkt_exp_return - self.risk_free_rate) / (mkt_risk * self.risk_coeff)
+
+        return weight
+    
+    def calcHoldingsValue(self):
+        """calculates the total value of the agent's current holdings, including unallocated cash """
+
+        portfolio_value = 0
+
+        for asset_index in len(self.watching):
+            portfolio_value += self.prices[asset_index] * self.shares[asset_index]
+
+        return portfolio_value + self.cash + self.allocated_cash
+    
+    def balanceCashAllocation(self, optimal_frac, total_value):
+        """ readjusts cash allocation if necessary to do so """
+
+        rfr_frac = 1-optimal_frac
+
+        ## if we need to buy more of the market portfolio, allocate more cash, subtract from regular cash
+        if self.cash > rfr_frac*total_value:
+            self.allocated_cash += self.cash - rfr_frac*total_value
+            self.cash = self.cash - rfr_frac*total_value
+
+        ## otherwise if we need to sell market portfolio, check if we have more cash allocated than we need to sell, if so move it
+        elif self.cash < rfr_frac * total_value and self.allocated_cash > (rfr_frac * total_value - self.cash):
+            self.cash += self.allocated_cash
+            self.allocated_cash -= rfr_frac * total_value - self.cash
+
+        ## otherwise if still need to rebalance but haven't liquidated enough shares yet, just zero allo. cash, add it to reg. cash
+        elif self.cash < rfr_frac * total_value:
+            self.cash += self.allocated_cash
+            self.allocated_cash = 0
+
+
     def evaluationLoop(self, simulation):
         """ basic asset evaluation loop """
 
 
         current_timestamp = simulation.currentTimestamp()
 
-        ## need to write function for allocation opti in portfolio.py, substituting 0.5 for now
-        self.allocated_cash = 0.5 * self.total_capital
-
-        ## NOTE need to get the indices of all of watching from self.asset_file
-
         ## check what value of current portfolio is 
         current_weights = calculate_current_weights(self.prices, self.shares)
 
-        optimal_weights = calculate_optimal_portfolio(self.indicies, self.prices)
+        optimal_weights = calculate_optimal_portfolio(self.getWatchingIndices(), self.prices)
+        
+        ## calculate how much of total assets should be market portfolio
+        optimal_frac = 1 - self.optimalFraction(optimal_weights)
+
+        ##calculate value of total holdings
+        total_value = self.calcHoldingsValue()
+
+        ## balance cash holdings if we can/need to
+        self.balanceCashAllocation(optimal_frac, total_value)
 
         ## iterate over each asset
         for asset_index in range(len(current_weights)):
 
+            ideal_value = optimal_weights[asset_index] * optimal_frac * self.calcHoldingsValue()
+
+            current_value = self.shares[asset_index] * self.prices[asset_index]
+
             ## as long as we are within one share price of optimal, don't do anything, 
             ## otherwise adjust. Currently, optimal is just "within one share of where we should be"
-            if current_weights[asset_index] - optimal_weights[asset_index] > self.prices[asset_index]:
+
+            if current_value - ideal_value > self.prices[asset_index]:
                 self.submitMarketSell(simulation, current_timestamp, self.watching[asset_index])
             
-            elif optimal_weights[asset_index] - current_weights[asset_index] > self.prices[asset_index] and self.prices[asset_index] > self.allocated_cash:
+            elif ideal_value - current_value > self.prices[asset_index]:
                 self.submitMarketBuy(simulation, current_timestamp, self.watching[asset_index])
 
 

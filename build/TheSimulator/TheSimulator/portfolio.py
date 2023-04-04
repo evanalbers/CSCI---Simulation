@@ -92,6 +92,8 @@ def getRiskMatrix(tickers, file):
 
     return risk_matrix
 
+
+
 def getExpRetData(tickers, current_price_data, file):
     """Returns the expected return data associated with the given tickers 
     as a numpy array
@@ -122,12 +124,14 @@ def getExpRetData(tickers, current_price_data, file):
 
     return np.array(exp_returns)
 
-def calculate_expected_return(weights, file):
+def calculate_expected_return(tickers, weights, file):
     """
     Returns the expected return of the given portfolio weights
 
     Parameters
     ----------
+    tickers : list of strings
+        list of the tickers in the portfolio
     weights : nparray
         a 2D array in which the first row is the tickers, 2nd row is
         corresponding weight in the portfolio
@@ -140,9 +144,6 @@ def calculate_expected_return(weights, file):
     expected return : float
         float representing the expected return of the portfolio
     """
-
-    # tickers is a list of asset tickers in the portfolio as strings
-    tickers = weights[0]
 
     ## need to add a bit calculating the expected return here, should be just dividing elements in 
     ## the given current price by those in the expected price one, given by exp. price function
@@ -193,6 +194,29 @@ def calculate_optimal_portfolio(tickers, rfr, current_price_data, file):
     t = numerator / denom
 
     return t
+
+def calcPortfolioRisk(tickers, weights, file):
+    """ calculates the risk of a given portfolio
+    
+    Parameters
+    ----------
+    tickers : list of strings
+        list of tickers of assets in portfolio
+
+    weights : list of floats
+        the corresponding weights of each asset in the portfolio
+
+    Returns
+    -------
+    risk : float
+        the risk of the portfolio    
+    """
+
+    risk_matrix = getRiskMatrix(tickers, file)
+
+    risk = np.array(weights).T * risk_matrix * np.array(weights)
+
+    return risk
 
 def calculate_current_weights(current_price_data, shares):
     """ calculate the current weights of a given portfolio 
