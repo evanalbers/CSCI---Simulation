@@ -73,435 +73,435 @@ TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/AdaptiveOfferingAgent.cpp.
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/AdaptiveOfferingAgent.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/AdaptiveOfferingAgent.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/AdaptiveOfferingAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/AdaptiveOfferingAgent.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/AdaptiveOfferingAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/AdaptiveOfferingAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/AdaptiveOfferingAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/AdaptiveOfferingAgent.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/AdaptiveOfferingAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/AdaptiveOfferingAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/AdaptiveOfferingAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/AdaptiveOfferingAgent.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/AdaptiveOfferingAgent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/AdaptiveOfferingAgent.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/AdaptiveOfferingAgent.cpp > CMakeFiles/TheSimulator.dir/AdaptiveOfferingAgent.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/AdaptiveOfferingAgent.cpp > CMakeFiles/TheSimulator.dir/AdaptiveOfferingAgent.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/AdaptiveOfferingAgent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/AdaptiveOfferingAgent.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/AdaptiveOfferingAgent.cpp -o CMakeFiles/TheSimulator.dir/AdaptiveOfferingAgent.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/AdaptiveOfferingAgent.cpp -o CMakeFiles/TheSimulator.dir/AdaptiveOfferingAgent.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Agent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Agent.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Agent.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Agent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Agent.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Agent.cpp.o -MF CMakeFiles/TheSimulator.dir/Agent.cpp.o.d -o CMakeFiles/TheSimulator.dir/Agent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Agent.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Agent.cpp.o -MF CMakeFiles/TheSimulator.dir/Agent.cpp.o.d -o CMakeFiles/TheSimulator.dir/Agent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Agent.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Agent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/Agent.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Agent.cpp > CMakeFiles/TheSimulator.dir/Agent.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Agent.cpp > CMakeFiles/TheSimulator.dir/Agent.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Agent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/Agent.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Agent.cpp -o CMakeFiles/TheSimulator.dir/Agent.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Agent.cpp -o CMakeFiles/TheSimulator.dir/Agent.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Book.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Book.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Book.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Book.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Book.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Book.cpp.o -MF CMakeFiles/TheSimulator.dir/Book.cpp.o.d -o CMakeFiles/TheSimulator.dir/Book.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Book.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Book.cpp.o -MF CMakeFiles/TheSimulator.dir/Book.cpp.o.d -o CMakeFiles/TheSimulator.dir/Book.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Book.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Book.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/Book.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Book.cpp > CMakeFiles/TheSimulator.dir/Book.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Book.cpp > CMakeFiles/TheSimulator.dir/Book.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Book.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/Book.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Book.cpp -o CMakeFiles/TheSimulator.dir/Book.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Book.cpp -o CMakeFiles/TheSimulator.dir/Book.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/BouchaudAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/BouchaudAgent.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/BouchaudAgent.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/BouchaudAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/BouchaudAgent.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/BouchaudAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/BouchaudAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/BouchaudAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/BouchaudAgent.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/BouchaudAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/BouchaudAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/BouchaudAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/BouchaudAgent.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/BouchaudAgent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/BouchaudAgent.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/BouchaudAgent.cpp > CMakeFiles/TheSimulator.dir/BouchaudAgent.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/BouchaudAgent.cpp > CMakeFiles/TheSimulator.dir/BouchaudAgent.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/BouchaudAgent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/BouchaudAgent.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/BouchaudAgent.cpp -o CMakeFiles/TheSimulator.dir/BouchaudAgent.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/BouchaudAgent.cpp -o CMakeFiles/TheSimulator.dir/BouchaudAgent.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Decimal.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Decimal.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Decimal.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Decimal.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Decimal.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Decimal.cpp.o -MF CMakeFiles/TheSimulator.dir/Decimal.cpp.o.d -o CMakeFiles/TheSimulator.dir/Decimal.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Decimal.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Decimal.cpp.o -MF CMakeFiles/TheSimulator.dir/Decimal.cpp.o.d -o CMakeFiles/TheSimulator.dir/Decimal.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Decimal.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Decimal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/Decimal.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Decimal.cpp > CMakeFiles/TheSimulator.dir/Decimal.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Decimal.cpp > CMakeFiles/TheSimulator.dir/Decimal.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Decimal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/Decimal.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Decimal.cpp -o CMakeFiles/TheSimulator.dir/Decimal.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Decimal.cpp -o CMakeFiles/TheSimulator.dir/Decimal.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/DoobAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/DoobAgent.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/DoobAgent.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/DoobAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/DoobAgent.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/DoobAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/DoobAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/DoobAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/DoobAgent.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/DoobAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/DoobAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/DoobAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/DoobAgent.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/DoobAgent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/DoobAgent.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/DoobAgent.cpp > CMakeFiles/TheSimulator.dir/DoobAgent.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/DoobAgent.cpp > CMakeFiles/TheSimulator.dir/DoobAgent.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/DoobAgent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/DoobAgent.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/DoobAgent.cpp -o CMakeFiles/TheSimulator.dir/DoobAgent.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/DoobAgent.cpp -o CMakeFiles/TheSimulator.dir/DoobAgent.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ExchangeAgent.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ExchangeAgent.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ExchangeAgent.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ExchangeAgent.cpp > CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ExchangeAgent.cpp > CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ExchangeAgent.cpp -o CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ExchangeAgent.cpp -o CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TheSimulatorModule.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TheSimulatorModule.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TheSimulatorModule.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TheSimulatorModule.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TheSimulatorModule.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TheSimulatorModule.cpp.o -MF CMakeFiles/TheSimulator.dir/TheSimulatorModule.cpp.o.d -o CMakeFiles/TheSimulator.dir/TheSimulatorModule.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TheSimulatorModule.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TheSimulatorModule.cpp.o -MF CMakeFiles/TheSimulator.dir/TheSimulatorModule.cpp.o.d -o CMakeFiles/TheSimulator.dir/TheSimulatorModule.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TheSimulatorModule.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TheSimulatorModule.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/TheSimulatorModule.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TheSimulatorModule.cpp > CMakeFiles/TheSimulator.dir/TheSimulatorModule.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TheSimulatorModule.cpp > CMakeFiles/TheSimulator.dir/TheSimulatorModule.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TheSimulatorModule.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/TheSimulatorModule.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TheSimulatorModule.cpp -o CMakeFiles/TheSimulator.dir/TheSimulatorModule.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TheSimulatorModule.cpp -o CMakeFiles/TheSimulator.dir/TheSimulatorModule.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/IMessageable.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/IMessageable.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/IMessageable.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/IMessageable.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/IMessageable.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/IMessageable.cpp.o -MF CMakeFiles/TheSimulator.dir/IMessageable.cpp.o.d -o CMakeFiles/TheSimulator.dir/IMessageable.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/IMessageable.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/IMessageable.cpp.o -MF CMakeFiles/TheSimulator.dir/IMessageable.cpp.o.d -o CMakeFiles/TheSimulator.dir/IMessageable.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/IMessageable.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/IMessageable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/IMessageable.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/IMessageable.cpp > CMakeFiles/TheSimulator.dir/IMessageable.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/IMessageable.cpp > CMakeFiles/TheSimulator.dir/IMessageable.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/IMessageable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/IMessageable.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/IMessageable.cpp -o CMakeFiles/TheSimulator.dir/IMessageable.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/IMessageable.cpp -o CMakeFiles/TheSimulator.dir/IMessageable.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ImpactAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ImpactAgent.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ImpactAgent.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ImpactAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ImpactAgent.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ImpactAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/ImpactAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/ImpactAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ImpactAgent.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ImpactAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/ImpactAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/ImpactAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ImpactAgent.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ImpactAgent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/ImpactAgent.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ImpactAgent.cpp > CMakeFiles/TheSimulator.dir/ImpactAgent.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ImpactAgent.cpp > CMakeFiles/TheSimulator.dir/ImpactAgent.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ImpactAgent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/ImpactAgent.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ImpactAgent.cpp -o CMakeFiles/TheSimulator.dir/ImpactAgent.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ImpactAgent.cpp -o CMakeFiles/TheSimulator.dir/ImpactAgent.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/L1LogAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/L1LogAgent.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/L1LogAgent.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/L1LogAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/L1LogAgent.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/L1LogAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/L1LogAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/L1LogAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/L1LogAgent.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/L1LogAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/L1LogAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/L1LogAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/L1LogAgent.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/L1LogAgent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/L1LogAgent.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/L1LogAgent.cpp > CMakeFiles/TheSimulator.dir/L1LogAgent.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/L1LogAgent.cpp > CMakeFiles/TheSimulator.dir/L1LogAgent.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/L1LogAgent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/L1LogAgent.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/L1LogAgent.cpp -o CMakeFiles/TheSimulator.dir/L1LogAgent.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/L1LogAgent.cpp -o CMakeFiles/TheSimulator.dir/L1LogAgent.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/main.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/main.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/main.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/main.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/main.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/main.cpp.o -MF CMakeFiles/TheSimulator.dir/main.cpp.o.d -o CMakeFiles/TheSimulator.dir/main.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/main.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/main.cpp.o -MF CMakeFiles/TheSimulator.dir/main.cpp.o.d -o CMakeFiles/TheSimulator.dir/main.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/main.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/main.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/main.cpp > CMakeFiles/TheSimulator.dir/main.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/main.cpp > CMakeFiles/TheSimulator.dir/main.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/main.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/main.cpp -o CMakeFiles/TheSimulator.dir/main.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/main.cpp -o CMakeFiles/TheSimulator.dir/main.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Money.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Money.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Money.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Money.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Money.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Money.cpp.o -MF CMakeFiles/TheSimulator.dir/Money.cpp.o.d -o CMakeFiles/TheSimulator.dir/Money.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Money.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Money.cpp.o -MF CMakeFiles/TheSimulator.dir/Money.cpp.o.d -o CMakeFiles/TheSimulator.dir/Money.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Money.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Money.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/Money.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Money.cpp > CMakeFiles/TheSimulator.dir/Money.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Money.cpp > CMakeFiles/TheSimulator.dir/Money.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Money.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/Money.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Money.cpp -o CMakeFiles/TheSimulator.dir/Money.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Money.cpp -o CMakeFiles/TheSimulator.dir/Money.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Order.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Order.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Order.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Order.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Order.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Order.cpp.o -MF CMakeFiles/TheSimulator.dir/Order.cpp.o.d -o CMakeFiles/TheSimulator.dir/Order.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Order.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Order.cpp.o -MF CMakeFiles/TheSimulator.dir/Order.cpp.o.d -o CMakeFiles/TheSimulator.dir/Order.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Order.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Order.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/Order.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Order.cpp > CMakeFiles/TheSimulator.dir/Order.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Order.cpp > CMakeFiles/TheSimulator.dir/Order.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Order.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/Order.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Order.cpp -o CMakeFiles/TheSimulator.dir/Order.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Order.cpp -o CMakeFiles/TheSimulator.dir/Order.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/OrderLogAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/OrderLogAgent.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/OrderLogAgent.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/OrderLogAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/OrderLogAgent.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/OrderLogAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/OrderLogAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/OrderLogAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/OrderLogAgent.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/OrderLogAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/OrderLogAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/OrderLogAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/OrderLogAgent.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/OrderLogAgent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/OrderLogAgent.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/OrderLogAgent.cpp > CMakeFiles/TheSimulator.dir/OrderLogAgent.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/OrderLogAgent.cpp > CMakeFiles/TheSimulator.dir/OrderLogAgent.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/OrderLogAgent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/OrderLogAgent.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/OrderLogAgent.cpp -o CMakeFiles/TheSimulator.dir/OrderLogAgent.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/OrderLogAgent.cpp -o CMakeFiles/TheSimulator.dir/OrderLogAgent.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/OrderRecord.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/OrderRecord.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/OrderRecord.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/OrderRecord.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/OrderRecord.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/OrderRecord.cpp.o -MF CMakeFiles/TheSimulator.dir/OrderRecord.cpp.o.d -o CMakeFiles/TheSimulator.dir/OrderRecord.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/OrderRecord.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/OrderRecord.cpp.o -MF CMakeFiles/TheSimulator.dir/OrderRecord.cpp.o.d -o CMakeFiles/TheSimulator.dir/OrderRecord.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/OrderRecord.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/OrderRecord.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/OrderRecord.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/OrderRecord.cpp > CMakeFiles/TheSimulator.dir/OrderRecord.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/OrderRecord.cpp > CMakeFiles/TheSimulator.dir/OrderRecord.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/OrderRecord.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/OrderRecord.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/OrderRecord.cpp -o CMakeFiles/TheSimulator.dir/OrderRecord.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/OrderRecord.cpp -o CMakeFiles/TheSimulator.dir/OrderRecord.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ParameterStorage.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ParameterStorage.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ParameterStorage.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ParameterStorage.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ParameterStorage.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ParameterStorage.cpp.o -MF CMakeFiles/TheSimulator.dir/ParameterStorage.cpp.o.d -o CMakeFiles/TheSimulator.dir/ParameterStorage.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ParameterStorage.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ParameterStorage.cpp.o -MF CMakeFiles/TheSimulator.dir/ParameterStorage.cpp.o.d -o CMakeFiles/TheSimulator.dir/ParameterStorage.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ParameterStorage.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ParameterStorage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/ParameterStorage.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ParameterStorage.cpp > CMakeFiles/TheSimulator.dir/ParameterStorage.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ParameterStorage.cpp > CMakeFiles/TheSimulator.dir/ParameterStorage.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ParameterStorage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/ParameterStorage.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ParameterStorage.cpp -o CMakeFiles/TheSimulator.dir/ParameterStorage.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/ParameterStorage.cpp -o CMakeFiles/TheSimulator.dir/ParameterStorage.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PriceTimeBook.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PriceTimeBook.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PriceTimeBook.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PriceTimeBook.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PriceTimeBook.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PriceTimeBook.cpp.o -MF CMakeFiles/TheSimulator.dir/PriceTimeBook.cpp.o.d -o CMakeFiles/TheSimulator.dir/PriceTimeBook.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PriceTimeBook.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PriceTimeBook.cpp.o -MF CMakeFiles/TheSimulator.dir/PriceTimeBook.cpp.o.d -o CMakeFiles/TheSimulator.dir/PriceTimeBook.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PriceTimeBook.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PriceTimeBook.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/PriceTimeBook.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PriceTimeBook.cpp > CMakeFiles/TheSimulator.dir/PriceTimeBook.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PriceTimeBook.cpp > CMakeFiles/TheSimulator.dir/PriceTimeBook.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PriceTimeBook.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/PriceTimeBook.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PriceTimeBook.cpp -o CMakeFiles/TheSimulator.dir/PriceTimeBook.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PriceTimeBook.cpp -o CMakeFiles/TheSimulator.dir/PriceTimeBook.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PriorityProRataBook.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PriorityProRataBook.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PriorityProRataBook.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PriorityProRataBook.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PriorityProRataBook.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PriorityProRataBook.cpp.o -MF CMakeFiles/TheSimulator.dir/PriorityProRataBook.cpp.o.d -o CMakeFiles/TheSimulator.dir/PriorityProRataBook.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PriorityProRataBook.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PriorityProRataBook.cpp.o -MF CMakeFiles/TheSimulator.dir/PriorityProRataBook.cpp.o.d -o CMakeFiles/TheSimulator.dir/PriorityProRataBook.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PriorityProRataBook.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PriorityProRataBook.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/PriorityProRataBook.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PriorityProRataBook.cpp > CMakeFiles/TheSimulator.dir/PriorityProRataBook.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PriorityProRataBook.cpp > CMakeFiles/TheSimulator.dir/PriorityProRataBook.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PriorityProRataBook.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/PriorityProRataBook.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PriorityProRataBook.cpp -o CMakeFiles/TheSimulator.dir/PriorityProRataBook.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PriorityProRataBook.cpp -o CMakeFiles/TheSimulator.dir/PriorityProRataBook.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PureProRataBook.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PureProRataBook.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PureProRataBook.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PureProRataBook.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PureProRataBook.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PureProRataBook.cpp.o -MF CMakeFiles/TheSimulator.dir/PureProRataBook.cpp.o.d -o CMakeFiles/TheSimulator.dir/PureProRataBook.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PureProRataBook.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PureProRataBook.cpp.o -MF CMakeFiles/TheSimulator.dir/PureProRataBook.cpp.o.d -o CMakeFiles/TheSimulator.dir/PureProRataBook.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PureProRataBook.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PureProRataBook.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/PureProRataBook.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PureProRataBook.cpp > CMakeFiles/TheSimulator.dir/PureProRataBook.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PureProRataBook.cpp > CMakeFiles/TheSimulator.dir/PureProRataBook.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PureProRataBook.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/PureProRataBook.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PureProRataBook.cpp -o CMakeFiles/TheSimulator.dir/PureProRataBook.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PureProRataBook.cpp -o CMakeFiles/TheSimulator.dir/PureProRataBook.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PythonAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PythonAgent.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PythonAgent.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PythonAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PythonAgent.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PythonAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/PythonAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/PythonAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PythonAgent.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PythonAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/PythonAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/PythonAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PythonAgent.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PythonAgent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/PythonAgent.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PythonAgent.cpp > CMakeFiles/TheSimulator.dir/PythonAgent.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PythonAgent.cpp > CMakeFiles/TheSimulator.dir/PythonAgent.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/PythonAgent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/PythonAgent.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PythonAgent.cpp -o CMakeFiles/TheSimulator.dir/PythonAgent.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/PythonAgent.cpp -o CMakeFiles/TheSimulator.dir/PythonAgent.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/RandomWalkMarketMakerAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/RandomWalkMarketMakerAgent.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/RandomWalkMarketMakerAgent.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/RandomWalkMarketMakerAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/RandomWalkMarketMakerAgent.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/RandomWalkMarketMakerAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/RandomWalkMarketMakerAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/RandomWalkMarketMakerAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/RandomWalkMarketMakerAgent.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/RandomWalkMarketMakerAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/RandomWalkMarketMakerAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/RandomWalkMarketMakerAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/RandomWalkMarketMakerAgent.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/RandomWalkMarketMakerAgent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/RandomWalkMarketMakerAgent.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/RandomWalkMarketMakerAgent.cpp > CMakeFiles/TheSimulator.dir/RandomWalkMarketMakerAgent.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/RandomWalkMarketMakerAgent.cpp > CMakeFiles/TheSimulator.dir/RandomWalkMarketMakerAgent.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/RandomWalkMarketMakerAgent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/RandomWalkMarketMakerAgent.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/RandomWalkMarketMakerAgent.cpp -o CMakeFiles/TheSimulator.dir/RandomWalkMarketMakerAgent.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/RandomWalkMarketMakerAgent.cpp -o CMakeFiles/TheSimulator.dir/RandomWalkMarketMakerAgent.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/SetupAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/SetupAgent.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/SetupAgent.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/SetupAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/SetupAgent.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/SetupAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/SetupAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/SetupAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/SetupAgent.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/SetupAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/SetupAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/SetupAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/SetupAgent.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/SetupAgent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/SetupAgent.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/SetupAgent.cpp > CMakeFiles/TheSimulator.dir/SetupAgent.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/SetupAgent.cpp > CMakeFiles/TheSimulator.dir/SetupAgent.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/SetupAgent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/SetupAgent.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/SetupAgent.cpp -o CMakeFiles/TheSimulator.dir/SetupAgent.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/SetupAgent.cpp -o CMakeFiles/TheSimulator.dir/SetupAgent.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Simulation.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Simulation.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Simulation.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Simulation.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Simulation.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Simulation.cpp.o -MF CMakeFiles/TheSimulator.dir/Simulation.cpp.o.d -o CMakeFiles/TheSimulator.dir/Simulation.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Simulation.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Simulation.cpp.o -MF CMakeFiles/TheSimulator.dir/Simulation.cpp.o.d -o CMakeFiles/TheSimulator.dir/Simulation.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Simulation.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Simulation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/Simulation.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Simulation.cpp > CMakeFiles/TheSimulator.dir/Simulation.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Simulation.cpp > CMakeFiles/TheSimulator.dir/Simulation.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Simulation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/Simulation.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Simulation.cpp -o CMakeFiles/TheSimulator.dir/Simulation.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Simulation.cpp -o CMakeFiles/TheSimulator.dir/Simulation.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/split.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/split.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/split.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/split.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/split.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/split.cpp.o -MF CMakeFiles/TheSimulator.dir/split.cpp.o.d -o CMakeFiles/TheSimulator.dir/split.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/split.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/split.cpp.o -MF CMakeFiles/TheSimulator.dir/split.cpp.o.d -o CMakeFiles/TheSimulator.dir/split.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/split.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/split.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/split.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/split.cpp > CMakeFiles/TheSimulator.dir/split.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/split.cpp > CMakeFiles/TheSimulator.dir/split.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/split.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/split.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/split.cpp -o CMakeFiles/TheSimulator.dir/split.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/split.cpp -o CMakeFiles/TheSimulator.dir/split.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TimeProRataBook.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TimeProRataBook.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TimeProRataBook.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TimeProRataBook.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TimeProRataBook.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TimeProRataBook.cpp.o -MF CMakeFiles/TheSimulator.dir/TimeProRataBook.cpp.o.d -o CMakeFiles/TheSimulator.dir/TimeProRataBook.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TimeProRataBook.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TimeProRataBook.cpp.o -MF CMakeFiles/TheSimulator.dir/TimeProRataBook.cpp.o.d -o CMakeFiles/TheSimulator.dir/TimeProRataBook.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TimeProRataBook.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TimeProRataBook.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/TimeProRataBook.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TimeProRataBook.cpp > CMakeFiles/TheSimulator.dir/TimeProRataBook.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TimeProRataBook.cpp > CMakeFiles/TheSimulator.dir/TimeProRataBook.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TimeProRataBook.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/TimeProRataBook.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TimeProRataBook.cpp -o CMakeFiles/TheSimulator.dir/TimeProRataBook.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TimeProRataBook.cpp -o CMakeFiles/TheSimulator.dir/TimeProRataBook.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Trade.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Trade.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Trade.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Trade.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Trade.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Trade.cpp.o -MF CMakeFiles/TheSimulator.dir/Trade.cpp.o.d -o CMakeFiles/TheSimulator.dir/Trade.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Trade.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Trade.cpp.o -MF CMakeFiles/TheSimulator.dir/Trade.cpp.o.d -o CMakeFiles/TheSimulator.dir/Trade.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Trade.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Trade.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/Trade.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Trade.cpp > CMakeFiles/TheSimulator.dir/Trade.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Trade.cpp > CMakeFiles/TheSimulator.dir/Trade.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/Trade.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/Trade.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Trade.cpp -o CMakeFiles/TheSimulator.dir/Trade.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/Trade.cpp -o CMakeFiles/TheSimulator.dir/Trade.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TradeFactory.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TradeFactory.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TradeFactory.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TradeFactory.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TradeFactory.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TradeFactory.cpp.o -MF CMakeFiles/TheSimulator.dir/TradeFactory.cpp.o.d -o CMakeFiles/TheSimulator.dir/TradeFactory.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TradeFactory.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TradeFactory.cpp.o -MF CMakeFiles/TheSimulator.dir/TradeFactory.cpp.o.d -o CMakeFiles/TheSimulator.dir/TradeFactory.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TradeFactory.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TradeFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/TradeFactory.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TradeFactory.cpp > CMakeFiles/TheSimulator.dir/TradeFactory.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TradeFactory.cpp > CMakeFiles/TheSimulator.dir/TradeFactory.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TradeFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/TradeFactory.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TradeFactory.cpp -o CMakeFiles/TheSimulator.dir/TradeFactory.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TradeFactory.cpp -o CMakeFiles/TheSimulator.dir/TradeFactory.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TradeLogAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TradeLogAgent.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TradeLogAgent.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TradeLogAgent.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TradeLogAgent.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TradeLogAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/TradeLogAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/TradeLogAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TradeLogAgent.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TradeLogAgent.cpp.o -MF CMakeFiles/TheSimulator.dir/TradeLogAgent.cpp.o.d -o CMakeFiles/TheSimulator.dir/TradeLogAgent.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TradeLogAgent.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TradeLogAgent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/TradeLogAgent.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TradeLogAgent.cpp > CMakeFiles/TheSimulator.dir/TradeLogAgent.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TradeLogAgent.cpp > CMakeFiles/TheSimulator.dir/TradeLogAgent.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/TradeLogAgent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/TradeLogAgent.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TradeLogAgent.cpp -o CMakeFiles/TheSimulator.dir/TradeLogAgent.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/TradeLogAgent.cpp -o CMakeFiles/TheSimulator.dir/TradeLogAgent.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/dimcli/cli.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/dimcli/cli.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/dimcli/cli.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/dimcli/cli.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/dimcli/cli.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/dimcli/cli.cpp.o -MF CMakeFiles/TheSimulator.dir/dimcli/cli.cpp.o.d -o CMakeFiles/TheSimulator.dir/dimcli/cli.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/dimcli/cli.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/dimcli/cli.cpp.o -MF CMakeFiles/TheSimulator.dir/dimcli/cli.cpp.o.d -o CMakeFiles/TheSimulator.dir/dimcli/cli.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/dimcli/cli.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/dimcli/cli.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/dimcli/cli.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/dimcli/cli.cpp > CMakeFiles/TheSimulator.dir/dimcli/cli.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/dimcli/cli.cpp > CMakeFiles/TheSimulator.dir/dimcli/cli.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/dimcli/cli.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/dimcli/cli.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/dimcli/cli.cpp -o CMakeFiles/TheSimulator.dir/dimcli/cli.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/dimcli/cli.cpp -o CMakeFiles/TheSimulator.dir/dimcli/cli.cpp.s
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/pugi/pugixml.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/flags.make
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/pugi/pugixml.cpp.o: /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/pugi/pugixml.cpp
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/pugi/pugixml.cpp.o: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/pugi/pugixml.cpp.o"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/pugi/pugixml.cpp.o -MF CMakeFiles/TheSimulator.dir/pugi/pugixml.cpp.o.d -o CMakeFiles/TheSimulator.dir/pugi/pugixml.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/pugi/pugixml.cpp
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/pugi/pugixml.cpp.o -MF CMakeFiles/TheSimulator.dir/pugi/pugixml.cpp.o.d -o CMakeFiles/TheSimulator.dir/pugi/pugixml.cpp.o -c /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/pugi/pugixml.cpp
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/pugi/pugixml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheSimulator.dir/pugi/pugixml.cpp.i"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/pugi/pugixml.cpp > CMakeFiles/TheSimulator.dir/pugi/pugixml.cpp.i
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/pugi/pugixml.cpp > CMakeFiles/TheSimulator.dir/pugi/pugixml.cpp.i
 
 TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/pugi/pugixml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheSimulator.dir/pugi/pugixml.cpp.s"
-	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/pugi/pugixml.cpp -o CMakeFiles/TheSimulator.dir/pugi/pugixml.cpp.s
+	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/evanalbers/Desktop/Maxe/maxe/TheSimulator/TheSimulator/pugi/pugixml.cpp -o CMakeFiles/TheSimulator.dir/pugi/pugixml.cpp.s
 
 # Object files for target TheSimulator
 TheSimulator_OBJECTS = \
@@ -572,7 +572,7 @@ TheSimulator/TheSimulator/TheSimulator: TheSimulator/TheSimulator/CMakeFiles/The
 TheSimulator/TheSimulator/TheSimulator: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/dimcli/cli.cpp.o
 TheSimulator/TheSimulator/TheSimulator: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/pugi/pugixml.cpp.o
 TheSimulator/TheSimulator/TheSimulator: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/build.make
-TheSimulator/TheSimulator/TheSimulator: /opt/local/Library/Frameworks/Python.framework/Versions/3.8/lib/libpython3.8.dylib
+TheSimulator/TheSimulator/TheSimulator: /Users/evanalbers/anaconda3/envs/Simulation/lib/libpython3.10.dylib
 TheSimulator/TheSimulator/TheSimulator: TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/evanalbers/Desktop/Maxe/maxe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX executable TheSimulator"
 	cd /Users/evanalbers/Desktop/Maxe/maxe/build/TheSimulator/TheSimulator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TheSimulator.dir/link.txt --verbose=$(VERBOSE)

@@ -18,6 +18,10 @@ Summary: series of functions to aid with portfolio calculation, to isolate
 """
 
 import json
+
+import sys
+sys.path.append("~/anaconda3/envs/Simulation/")
+print(sys.path)
 import numpy as np
 from numpy.linalg import inv
 

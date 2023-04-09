@@ -16,19 +16,18 @@ class SimpleCaseAgent:
         self.agent_id = self.name()[4:]
 
         with open("Agents/Agent" + self.agent_id) as f:
-            self.watching = json.load(f)["watching"]
-            self.prices = json.load(f)["prices"]
+            agent_data = json.load(f)
+            self.watching = agent_data["watching"]
+            self.prices = agent_data["prices"]
+            self.shares = agent_data["shares"]
 
         self.prices = [-1] * len(self.watching)
-        self.current_weights = [0] * len(self.watching)
-        self.shares = [0] * len(self.watching)
-
         self.outstanding_orders = {}
 
         self.asset_file = str(params["asset_file"])
 
-        self.risk_free_rate = str(params["rfr"])
-        self.risk_coeff = str(params["risk_coeff"])
+        self.risk_free_rate = float(params["rfr"])
+        self.risk_coeff = float(params["risk_coeff"])
 
 
     def submitMarketBuy(self, simulation, current_timestamp, exchange):

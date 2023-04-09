@@ -1,6 +1,6 @@
 <Simulation start="0" duration="1250">
     <ExchangeAgent
-        name="AAPL"
+        name="NORD"
         algorithm="PureProRata"
         />
 
@@ -10,22 +10,28 @@
         />
 
     <ExchangeAgent
-        name="Z"
+        name="SBUX"
         algorithm="PureProRata"
     />
 
     <SimpleCaseAgent
-        name="AGENT_BUYER"
-        exchange="AAPL"
-
-        refresh_rate = "5"
+        name="AGENT1"
+        exchange="NORD"
+        capital="10"
+        refresh_rate ="5"
+        asset_file="Asset_Dictionary.json"
+        rfr="0.005"
+        risk_coeff="3"
 
         />
     <SimpleCaseAgent
-        name="AGENT_BUYER"
-        exchange="AAPL"
-
-        refresh_rate = "5"
+        name="AGENT2"
+        exchange="NORD"
+        capital="1000"
+        refresh_rate="5"
+        asset_file="Asset_Dictionary.json"
+        rfr="0.005"
+        risk_coeff="3"
 
         />
     
