@@ -1,4 +1,4 @@
-<Simulation start="0" duration="1250">
+<Simulation start="0" duration="20000">
     <ExchangeAgent
         name="NORD"
         algorithm="PureProRata"
@@ -17,27 +17,51 @@
     <SimpleCaseAgent
         name="AGENT1"
         exchange="NORD"
-        capital="10"
-        refresh_rate ="5"
+        capital="100000"
+        refresh_rate ="2"
         asset_file="Asset_Dictionary.json"
-        rfr="0.005"
-        risk_coeff="3"
+        rfr="1.005"
+        step_rate="1.01"
+        risk_coeff="50"
 
         />
-    <SimpleCaseAgent
+     <SimpleCaseAgent
         name="AGENT2"
         exchange="NORD"
-        capital="1000"
-        refresh_rate="5"
+        capital="100"
+        refresh_rate="2"
         asset_file="Asset_Dictionary.json"
-        rfr="0.005"
-        risk_coeff="3"
+        rfr="1.005"
+        step_rate="1.01"
+        risk_coeff="50"
+
+        />
+
+    <SimpleCaseAgent
+        name="AGENT3"
+        exchange="NORD"
+        capital="100"
+        refresh_rate="2"
+        asset_file="Asset_Dictionary.json"
+        rfr="1.005"
+        step_rate="1.01"
+        risk_coeff="50"
 
         />
     
     <TradeLogAgent
-        name="LOGGER_TRADES"
-        exchange="EXCHANGE"
+        name="NORD_LOGGER"
+        exchange="NORD"
+        />
+    
+    <TradeLogAgent
+        name="SBUX_LOGGER"
+        exchange="SBUX"
+        />
+
+     <TradeLogAgent
+        name="MSFT_LOGGER"
+        exchange="MSFT"
         />
 
 </Simulation>

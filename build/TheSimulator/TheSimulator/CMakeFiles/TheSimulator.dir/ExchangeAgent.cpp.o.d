@@ -812,10 +812,10 @@ TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.o: \
   /Users/evanalbers/Desktop/Maxe/maxe/pybind11/include/pybind11/cast.h \
   /Users/evanalbers/Desktop/Maxe/maxe/pybind11/include/pybind11/pytypes.h \
   /Users/evanalbers/Desktop/Maxe/maxe/pybind11/include/pybind11/detail/common.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/Python.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/patchlevel.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/pyconfig.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/pymacconfig.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/Python.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/patchlevel.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/pyconfig.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/pymacconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_posix_vdisable.h \
@@ -824,7 +824,7 @@ TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_select.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_uuid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/gethostuuid.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/pyport.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/pyport.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/inttypes.h \
@@ -834,89 +834,101 @@ TheSimulator/TheSimulator/CMakeFiles/TheSimulator.dir/ExchangeAgent.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/stat.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_s_ifmt.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_filesec_t.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/pymacro.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/pymath.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/pytime.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/object.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/pymem.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/cpython/pymem.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/cpython/object.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/objimpl.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/cpython/objimpl.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/typeslots.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/pyhash.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/pydebug.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/bytearrayobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/bytesobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/unicodeobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/cpython/unicodeobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/longobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/longintrepr.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/boolobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/floatobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/complexobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/rangeobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/memoryobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/tupleobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/cpython/tupleobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/listobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/dictobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/cpython/dictobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/odictobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/enumobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/setobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/methodobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/moduleobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/funcobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/classobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/fileobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/cpython/fileobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/pycapsule.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/traceback.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/cpython/traceback.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/sliceobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/cellobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/iterobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/genobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/pystate.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/pythread.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/cpython/pystate.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/cpython/initconfig.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/descrobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/warnings.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/weakrefobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/structseq.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/namespaceobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/picklebufobject.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/codecs.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/pyerrors.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/cpython/pyerrors.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/context.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/pyarena.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/modsupport.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/compile.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/code.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/pythonrun.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/pylifecycle.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/cpython/pylifecycle.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/ceval.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/sysmodule.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/cpython/sysmodule.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/osmodule.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/intrcheck.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/import.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/abstract.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/cpython/abstract.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/bltinmodule.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/eval.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/pyctype.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/pystrtod.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/pystrcmp.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/dtoa.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/fileutils.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/pyfpe.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/tracemalloc.h \
-  /opt/local/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8/frameobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/exports.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/pymacro.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/pymath.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/pymem.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/pymem.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/object.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/object.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/objimpl.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/objimpl.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/typeslots.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/pyhash.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/pydebug.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/bytearrayobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/bytearrayobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/bytesobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/bytesobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/unicodeobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/unicodeobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/longobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/longintrepr.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/boolobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/floatobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/complexobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/rangeobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/memoryobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/tupleobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/tupleobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/listobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/listobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/dictobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/dictobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/odictobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/enumobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/setobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/methodobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/methodobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/moduleobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/funcobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/classobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/fileobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/fileobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/pycapsule.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/code.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/code.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/pyframe.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/traceback.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/traceback.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/sliceobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cellobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/iterobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/initconfig.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/genobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/pystate.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/pystate.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/abstract.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/abstract.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/descrobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/genericaliasobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/warnings.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/weakrefobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/structseq.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/namespaceobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/picklebufobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/pytime.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/codecs.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/pyerrors.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/pyerrors.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/pythread.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/context.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/modsupport.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/compile.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/compile.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/pythonrun.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/pythonrun.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/pylifecycle.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/pylifecycle.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/ceval.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/ceval.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/sysmodule.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/sysmodule.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/osmodule.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/intrcheck.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/import.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/import.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/bltinmodule.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/eval.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/pyctype.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/pystrtod.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/pystrcmp.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/fileutils.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/fileutils.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/pyfpe.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/tracemalloc.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/frameobject.h \
+  /Users/evanalbers/anaconda3/envs/Simulation/include/python3.10/cpython/frameobject.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/unordered_set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/typeindex \

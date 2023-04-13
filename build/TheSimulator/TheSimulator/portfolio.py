@@ -18,10 +18,6 @@ Summary: series of functions to aid with portfolio calculation, to isolate
 """
 
 import json
-
-import sys
-sys.path.append("~/anaconda3/envs/Simulation/")
-print(sys.path)
 import numpy as np
 from numpy.linalg import inv
 
@@ -50,7 +46,7 @@ def getExpPriceData(tickers, file):
         data = json.load(f)
     
     all_prices = data["exp_prices"]
- 
+
     # retrieve indices of tickers, append returns to list
     exp_price = []
     for t in tickers:
@@ -118,9 +114,9 @@ def getExpRetData(tickers, current_price_data, file):
     exp_rets : nparray
         an array of the corresponding expected returns """
     
-    exp_returns = []
-
     exp_prices = getExpPriceData(tickers, file)
+
+    exp_returns = [0] * len(exp_prices)
 
     ## dividing exp price at end of period by current price 
     for num in range(len(exp_prices)):
@@ -128,7 +124,7 @@ def getExpRetData(tickers, current_price_data, file):
 
     return np.array(exp_returns)
 
-def calculate_expected_return(tickers, weights, file):
+def calculate_expected_return(tickers, weights, current_prices, file):
     """
     Returns the expected return of the given portfolio weights
 
@@ -136,9 +132,13 @@ def calculate_expected_return(tickers, weights, file):
     ----------
     tickers : list of strings
         list of the tickers in the portfolio
+    
     weights : nparray
         a 2D array in which the first row is the tickers, 2nd row is
         corresponding weight in the portfolio
+
+    current_prices : list of floats
+        current prices of each security in the portfolio
 
     file : string
         file containing mean-variance data about assets
@@ -152,9 +152,9 @@ def calculate_expected_return(tickers, weights, file):
     ## need to add a bit calculating the expected return here, should be just dividing elements in 
     ## the given current price by those in the expected price one, given by exp. price function
 
-    exp_return_data = getExpRetData(tickers, file)
+    exp_return_data = getExpRetData(tickers, current_prices, file)
 
-    expected_return = np.cross(weights, exp_return_data)
+    expected_return = np.matmul(np.array(weights).T, exp_return_data)
 
     return expected_return
 
@@ -185,9 +185,9 @@ def calculate_optimal_portfolio(tickers, rfr, current_price_data, file):
         corresponding weight in the portfolio
     """
 
-    risk_matrix = getRiskMatrix(tickers)
+    risk_matrix = getRiskMatrix(tickers, file)
 
-    exp_return_data = getExpRetData(tickers, current_price_data)
+    exp_return_data = getExpRetData(tickers, current_price_data, file)
 
     risk_free_vec = np.ones(exp_return_data.shape) * rfr
 
@@ -218,7 +218,7 @@ def calcPortfolioRisk(tickers, weights, file):
 
     risk_matrix = getRiskMatrix(tickers, file)
 
-    risk = np.array(weights).T * risk_matrix * np.array(weights)
+    risk = np.matmul(np.matmul(np.array(weights).T, risk_matrix), np.array(weights))
 
     return risk
 
@@ -247,7 +247,11 @@ def calculate_current_weights(current_price_data, shares):
         total_value += current_price_data[num] * shares[num]
 
     for num in range(len(current_price_data)):
-        curr_weights = (current_price_data[num] * shares[num]) / total_value
+
+        if shares[num] > 0:
+            curr_weights.append((current_price_data[num] * shares[num]) / total_value)
+        else:
+            curr_weights.append(0)
     
     return curr_weights
 

@@ -5,7 +5,7 @@ from matplotlib import style
 
 class GraphAgent:
     def configure(self, params):
-        self.exchange = str(params["Exchange"])
+        self.exchange = str(params["exchange"])
         self.trade_history = []
         self.fig = plt.figure()
         self.ax1 = self.fig.add_subplot(1,1,1)
@@ -18,12 +18,12 @@ class GraphAgent:
         self.ax1.clear()
         self.ax1.plot(x_coords, y_coords)
 
-    def receiveMessage(self, simulation, type, payload):
+    def receiveMessage(self, simulation, type, payload, source):
         current_timestamp = simulation.currentTimestamp()
         print("Received a message of type '%s' at time %d, payload %s " % (type, current_timestamp, payload))
 
         if type == "SIMULATION_START":
-            simulation.dispatchMessage(current_timestamp, 0, self.name(), self.exchange, "SUBSCRIBE_EVENT_TRADE", EmptyPayload())
+            simulation.dispatchMessage(current_timestamp, 0, "GA" + self.exchange, self.exchange, "SUBSCRIBE_EVENT_TRADE", EmptyPayload())
             ani = animation.FuncAnimation(self.fig, self.animate, interval=1000)
             plt.show()
             return
