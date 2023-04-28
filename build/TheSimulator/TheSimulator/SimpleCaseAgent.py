@@ -3,10 +3,9 @@ from portfolio import *
 import numpy as np
 import time
 from random import randint
+from copy import copy
 
 class SimpleCaseAgent:
-
-    
 
     def configure(self, params):
         self.cash = float(params['capital'])
@@ -15,7 +14,6 @@ class SimpleCaseAgent:
         self.quantity = 1
         self.ref_rate = int(params['refresh_rate'])
         self.step_rate = float(params["step_rate"])
-        self.weights = []
         self.agent_id = self.name()[5:]
 
         with open("Agents/Agent" + self.agent_id + ".json") as f:
@@ -33,7 +31,40 @@ class SimpleCaseAgent:
         self.risk_coeff = float(params["risk_coeff"])
         self.wakeup_set = 0
 
+        self.share_data = []
+        self.return_data = []
+        self.variance_data = []
+        self.buy_trades = {}
+        self.sell_trades = {}
+
         self.processed_this_ts = -1
+
+    def getWatchingIndices(self):
+        """ returns the indices of the assets in "watching", in the larger asset dictionary """
+
+        indicies = []
+        with open(self.asset_file) as f:
+            asset_dict = json.load(f)
+        
+
+        for asset in self.watching:
+            indicies.append(asset_dict["assets"].index(asset))
+
+        return indicies
+
+
+    def updateData(self):
+        """updates relevant data in data file"""
+        current_weights = calculate_current_weights(self.prices, self.shares)
+
+        ## if a trade involving us, update the portfolio weights, otherwise just update new prices etc. 
+
+        self.share_data.append(copy(self.shares))
+
+        self.return_data.append(calculate_expected_return(self.getWatchingIndices(), current_weights, self.prices, self.asset_file))
+        self.variance_data.append(calcPortfolioRisk(self.getWatchingIndices(), current_weights, self.asset_file))
+
+            
 
 
     def submitMarketBuy(self, simulation, current_timestamp, exchange, price):
@@ -52,8 +83,6 @@ class SimpleCaseAgent:
         -------
         None
         """
-
-        asset_index = self.watching.index(exchange)
 
         marketOrderPayload = PlaceOrderLimitPayload(OrderDirection.Buy, 1, Money(price))
         simulation.dispatchMessage(current_timestamp, 0, "AGENT" + self.agent_id, exchange, "PLACE_ORDER_LIMIT", marketOrderPayload)
@@ -75,8 +104,6 @@ class SimpleCaseAgent:
         -------
         None
         """
-        
-        # print("AGENT %s selling asset %d at price %d" % (self.agent_id, asset_index, price))
 
         marketOrderPayload = PlaceOrderLimitPayload(OrderDirection.Sell, 1, Money(float(price)))
         simulation.dispatchMessage(current_timestamp, 0, "AGENT" + self.agent_id, exchange, "PLACE_ORDER_LIMIT", marketOrderPayload)
@@ -131,7 +158,8 @@ class SimpleCaseAgent:
                 ## set new price that we would ask
                 new_price = (2-self.step_rate) * float(self.outstanding_orders[order][0].requestPayload.price.toCentString())
                 asset_index = self.watching.index(exchange)
-                self.prices[asset_index] = new_price
+                if new_price > 0:
+                    self.prices[asset_index] = new_price
 
         ## if hasn't passed ref_rate time, no need to update price here
 
@@ -161,22 +189,8 @@ class SimpleCaseAgent:
 
         self.outstanding_orders[(order_id, source)] = (payload, current_timestamp, direction)
 
-        # for value in self.outstanding_orders:
-        # #     print("AGENT ID: %s, ORDER ID: %s, SOURCE: %s, PRICE: %s, TIMESTAMP: %s, DIRECTION: %s" % (self.agent_id, value[0], value[1], self.outstanding_orders[value][0].requestPayload.price, self.outstanding_orders[value][1], self.outstanding_orders[value][2]))
-        # # print("DONE POR")
-
-    def getWatchingIndices(self):
-        """ returns the indices of the assets in "watching", in the larger asset dictionary """
-
-        indicies = []
-        with open(self.asset_file) as f:
-            asset_dict = json.load(f)
         
-
-        for asset in self.watching:
-            indicies.append(asset_dict["assets"].index(asset))
-
-        return indicies
+    
 
     def optimalFraction(self, weights):
         """ calculates the fraction of wealth we should have invested in the market portfolio"""
@@ -207,30 +221,30 @@ class SimpleCaseAgent:
 
         rfr_frac = 1-optimal_frac
 
-        print(rfr_frac)
+        #print(rfr_frac)
 
-        print(self.agent_id, 'CASH BEFORE CHANGE: ', self.cash)
+        #print(self.agent_id, 'CASH BEFORE CHANGE: ', self.cash)
 
         ## if we need to buy more of the market portfolio, allocate more cash, subtract from regular cash
         if self.cash > (rfr_frac*total_value):
-            print("%s adding %d to allo., subtracting from cash" % (self.agent_id, rfr_frac*total_value))
+            #print("%s adding %d to allo., subtracting from cash" % (self.agent_id, self.cash - rfr_frac*total_value))
             self.allocated_cash += self.cash - rfr_frac*total_value
             self.cash = rfr_frac*total_value
 
         ## otherwise if we need to sell market portfolio, check if we have more cash allocated than we need to sell, if so move it
         elif self.cash < (rfr_frac * total_value) and self.allocated_cash > (rfr_frac * total_value - self.cash):
-            print("%s adding %d to cash, subtracting from allo if it has it" % (self.agent_id, rfr_frac*total_value - self.cash))
+            #print("%s adding %d to cash, subtracting from allo if it has it" % (self.agent_id, rfr_frac*total_value - self.cash))
             self.allocated_cash -= (rfr_frac*total_value) - self.cash
             self.cash = (rfr_frac*total_value)
             
 
         ## otherwise if still need to rebalance but haven't liquidated enough shares yet, just zero allo. cash, add it to reg. cash
         elif self.cash < rfr_frac * total_value:
-            print("%s zeroing out allo., still not quite right but closer to ideal frac., adding %d" % (self.agent_id, self.allocated_cash))
+            #print("%s zeroing out allo., still not quite right but closer to ideal frac., adding %d" % (self.agent_id, self.allocated_cash))
             self.cash += self.allocated_cash
             self.allocated_cash = 0
 
-        print(self.agent_id, 'CASH AFTER CHANGE: ', self.cash)
+        #print(self.agent_id, 'CASH AFTER CHANGE: ', self.cash)
 
 
     def evaluationLoop(self, simulation):
@@ -252,19 +266,12 @@ class SimpleCaseAgent:
         current_weights = calculate_current_weights(self.prices, self.shares)
 
         optimal_weights = calculate_optimal_portfolio(self.getWatchingIndices(), self.risk_free_rate, self.prices, self.asset_file)
-        
-        print(self.agent_id, optimal_weights, current_weights)
 
         ## calculate how much of total assets should be market portfolio
         optimal_frac = self.optimalFraction(optimal_weights)
-        print("OPTIMAL FRAC", optimal_frac)
-
-
-        print("EXP RETURN",  calculate_expected_return(self.getWatchingIndices(), optimal_weights, self.prices, self.asset_file))
 
         ##calculate value of total holdings
         total_value = self.calcHoldingsValue()
-        print(self.agent_id, "TOTAL_VALUE: ",total_value)
 
         ## balance cash holdings if we can/need to
         self.balanceCashAllocation(optimal_frac, total_value)
@@ -276,9 +283,6 @@ class SimpleCaseAgent:
 
             
             current_value = self.shares[asset_index] * self.prices[asset_index]
-
-            print(self.watching[asset_index], ideal_value, current_value)
-
 
             ## as long as we are within one share price of optimal, don't do anything, 
             ## otherwise adjust. Currently, optimal is just "within one share of where we should be"
@@ -298,6 +302,12 @@ class SimpleCaseAgent:
     def processOrderEvent(self, simulation, payload, source):
         """ updates information based on trade event """
 
+        if int(source[5:]) not in self.sell_trades:
+            self.sell_trades[int(source[5:])] = []
+
+        if int(source[5:]) not in self.buy_trades:
+            self.buy_trades[int(source[5:])] = []
+
         ## two cases, either is one of our orders, or it isn't, need to check case that we are either resting or agressing order
 
         order_id_A = payload.trade.aggressingOrderID()
@@ -312,31 +322,43 @@ class SimpleCaseAgent:
 
             ## if a buy for this agent, increment shares, if a sale, decrement and add cash
             if self.outstanding_orders[(order_id_A, source)][2] == OrderDirection.Buy:
+                #add to self.sell
+                self.buy_trades[int(source[5:])].append(order_id_A)
                 self.shares[asset_index] += 1
 
             else:
+                #add to self.sell
+                self.sell_trades[int(source[5:])].append(order_id_A)
                 self.shares[asset_index] -= 1
                 self.allocated_cash += float(self.outstanding_orders[(order_id_A, source)][0].requestPayload.price.toCentString())
 
             ## order has executed, no longer outstanding 
             self.outstanding_orders.pop((order_id_A, source))
+            self.updateData()
 
-            
         elif (order_id_B, source) in self.outstanding_orders:
+
+            #add to self.buy trades
 
             asset_index = self.watching.index(source)
 
             ## if a buy for this agent, increment shares, if a sale, decrement and add cash
             if self.outstanding_orders[(order_id_B, source)][2] == OrderDirection.Buy:
+                #add to self.buy_trades
+                self.buy_trades[int(source[5:])].append(order_id_B)
                 self.shares[asset_index] += 1
 
             else:
+                #add to self.sell_trades
+                self.sell_trades[int(source[5:])].append(order_id_B)
                 self.shares[asset_index] -= 1
 
                 self.allocated_cash += float(self.outstanding_orders[(order_id_B, source)][0].requestPayload.price.toCentString())
 
             ## order has executed, no longer outstanding 
             self.outstanding_orders.pop((order_id_B, source))
+            self.updateData()
+
 
 
         ## alternative case: not this agent's order, need to update price and evaluate
@@ -345,6 +367,7 @@ class SimpleCaseAgent:
             asset_index = self.watching.index(source)
 
             self.prices[asset_index] = new_price
+
 
 
         ## now that share counts or prices are updated, reevaluate 
@@ -389,8 +412,14 @@ class SimpleCaseAgent:
             ## if simulation is ending, save agent to file
             with open("Agents/Agent" + self.agent_id + "end" + ".json", "w") as f:
                 agent_dict = {"watching" : self.watching, "prices" : self.prices, "shares" : self.shares}
-                print(agent_dict["watching"], agent_dict["prices"], agent_dict["shares"])
+                print(agent_dict["watching"], agent_dict["prices"], agent_dict["shares"], calculate_current_weights(self.prices, self.shares))
+
                 json.dump(agent_dict, f)
+
+            with open("SimulationData/Data" + self.agent_id + ".json", "w") as f:
+
+                data_dict = {"holdings_data" : self.share_data, "return data" : self.return_data, "risk data" : self.variance_data, "sell trades" : self.sell_trades, "buy trades" : self.buy_trades}
+                json.dump(data_dict, f)
 
         if not self.wakeup_set:
                 simulation.dispatchGenericMessage(current_timestamp, self.ref_rate, "AGENT" + self.agent_id, "AGENT" + self.agent_id, "WAKE_UP", {})

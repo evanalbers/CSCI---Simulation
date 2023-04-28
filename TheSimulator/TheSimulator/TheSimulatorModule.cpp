@@ -1,5 +1,6 @@
 #include "Simulation.h"
 #include "ExchangeAgentMessagePayloads.h"
+#include "Trade.h"
 
 #include <pybind11/embed.h>
 #include <pybind11/stl.h>
@@ -83,6 +84,13 @@ PYBIND11_EMBEDDED_MODULE(thesimulator, m) {
 	py::enum_<OrderDirection>(m, "OrderDirection")
 		.value("Buy", OrderDirection::Buy)
 		.value("Sell", OrderDirection::Sell)
+		;
+
+	py::class_<Trade>(m, "Trade")
+		.def(py::init<Trade>())
+		.def("price", &Trade::price)
+		.def("aggressingOrderID", &Trade::aggressingOrderID)
+		.def("restingOrderID", &Trade::restingOrderID)
 		;
 
 	py::class_<MessagePayload, std::shared_ptr<MessagePayload>>(m, "MessagePayload")
